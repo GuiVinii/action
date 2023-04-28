@@ -1,6 +1,9 @@
 public class Teste {
-    Usuario usuarioNovo = new Usuario("Guilherme", "123", "123", "123", "123", "123");
-    public void main(String[] args){
+    public static void main(String[] args) {
+        Usuario usuarioNovo = new Usuario("Guilherme", "123", "123", "123", "123", "123");
+
         System.out.println(usuarioNovo);
     }
+
+
 }
