@@ -31,7 +31,7 @@ jobs:
             cd src
             javac -cp . Teste.java
             
-    - name: Executar teste
+    - name: Executar o teste
       run: |
             cd src
             java Teste
