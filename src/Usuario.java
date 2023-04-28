@@ -26,4 +26,13 @@ public class Usuario{
         this.dtAgendamento = usuario[4];
         this.pediiodo = usuario[5];
     }
+
+    public Usuario(String nome, String CPF, String tel, String dtNascimento, String dtAgendamento, String pediiodo) {
+        this.nome = nome;
+        this.CPF = CPF;
+        this.tel = tel;
+        this.dtNascimento = dtNascimento;
+        this.dtAgendamento = dtAgendamento;
+        this.pediiodo = pediiodo;
+    }
 }
